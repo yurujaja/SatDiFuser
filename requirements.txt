@@ -1,0 +1,15 @@
+numpy==1.26.3
+diffusers==0.17.0
+torch==2.2.2
+torchvision==0.17.2
+accelerate==0.20.3
+transformers==4.31.0
+scikit-learn==1.5.2
+huggingface_hub==0.16.4
+h5py==3.11.0
+tensorboard
+wandb
+omegaconf
+matplotlib
+fvcore
+rasterio

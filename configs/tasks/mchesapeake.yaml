@@ -1,0 +1,19 @@
+dataset_name: 'mchesapeake'
+task: 'segmentation'
+num_classes: 7
+class_names:
+  - 'water'
+  - 'tree-canopy-forest'
+  - 'low-vegetation-field'
+  - 'barren-land'
+  - 'impervious-other'
+  - 'impervious-roads'
+  - 'no data'
+
+original_img_size: 256
+img_size: 256
+resize_outputs: -1
+num_channels: 3
+prompt: "A satellite image of Cheasapeake landcovers"
+
+

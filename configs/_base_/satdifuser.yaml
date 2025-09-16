@@ -1,0 +1,15 @@
+fuser: 'gw' # gw (Global-Weighted) or lw (Localized-Weighted) or moe (Mixture-of-Experts)
+
+layer_idxs: 
+  up_blocks:
+    attn1: all
+    conv2: all
+
+projection_dim: 384
+save_timesteps: [47, 45, 40]
+num_timesteps: 50
+diffusion_mode: "inversion"
+
+# hyper-parameters for MoE
+num_experts: 8
+top_k: 2

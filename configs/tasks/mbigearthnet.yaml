@@ -1,0 +1,11 @@
+# DATASET
+dataset_name: 'mbigearthnet'
+task: 'multi_label_classification'
+num_classes: 43
+original_img_size: 120
+img_size: 256
+num_channels: 3
+
+
+prompt: "A satellite image"
+resize_outputs: -1

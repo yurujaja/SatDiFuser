@@ -1,0 +1,28 @@
+# Experiment parameters
+
+lr: 0.01
+op_weight_decay: 0 # 0.0001 
+warmup_epochs: 5
+min_lr: 0.00001
+
+batch_size: 64
+val_batch_size: 64
+num_workers: 4
+early_stopping_patience: 10
+max_train_epochs: 40
+
+eval_every_n_steps: null
+
+report_to: wandb
+wandb_project: "satdifuser"
+seed: 42
+exp_folder: "experiments"
+device: "cuda"
+
+base:
+  - _base_/diffusionsat.yaml
+  - _base_/satdifuser.yaml
+  - _base_/upernet.yaml
+
+  # dataset
+  - tasks/mbigearthnet.yaml

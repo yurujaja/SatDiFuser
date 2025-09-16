@@ -1,0 +1,12 @@
+# DATASET
+dataset_name: 'meurosat'
+task: 'classification'
+
+num_classes: 10
+original_img_size: 64
+img_size: 256
+num_channels: 3
+class_list: ['AnnualCrop', 'Forest', 'HerbaceousVegetation', 'Highway', 'Industrial', 'Pasture', 'PermanentCrop', 'Residential', 'River', 'SeaLake']
+
+prompt: "A satellite image"
+resize_outputs: -1
